@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6sp"
+    android:background="@drawable/corner_border"
+    android:backgroundTint="#DFE3FA"
+    android:orientation="horizontal"
+    >
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8sp"
+                android:layout_weight="1.4"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherName"
+                    android:text="Ali Mustafa"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherPost"
+                    android:text="Principal"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherEmail"
+                    android:text="gulam8636@gmail.com"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="120sp"
+    android:id="@+id/teacherImg"
+    android:layout_marginRight="5sp"
+    android:layout_height="120sp"
+    android:background="@drawable/avtar"
+
+    android:layout_gravity="center_horizontal"
+    />
+
+</LinearLayout>

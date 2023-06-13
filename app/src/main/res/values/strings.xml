@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">myapp2.0</string>
+    <font name="bold">@font/lato_bold</font>
+    <font name="light">@font/lato_light</font>
+    <font name="regular">@font/lato_regular</font>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="aboutSchool">S.V.M PUBLIC SCHOOL ARWATAND is located in Berhabad, Giridh. It is established in 2012. S.V.M PUBLIC SCHOOL ARWATAND is an english medium school where class nursery to class 10th are taught,Address of the School is AT-ARWATAND,MAIN ROAD, Jamua - Pachamba Road, Giridih, Jharkhand 815316.
+    </string>
+</resources>
